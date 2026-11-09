@@ -1,3 +1,24 @@
 # Tranquilitas Aruba
 
-Dedicated Tranquilitas destination website for aruba, built from the Nassau-founded brand design system. Enquiry-first, no unverified prices or claims of local staffing. Public URL: https://aruba.tranquilitasspa.com/.
+Independent responsive website for Aruba built from the Tranquilitas coastal design system. Domain: https://aruba.tranquilitasspa.com/.
+
+## Deployment
+- Repo: PearsonLegacyVentures/aruba
+- Cloudflare Pages project: aruba
+- Production branch: main
+- Build command: none
+- Output directory: . (repository root)
+- No shared/multi-market deployment.
+
+## Enquiry model
+These are private massage **enquiries**, not a booking/payment confirmation. No published local prices or claims of active local therapists. A 6-hour minimum lead time, local timezone `America/Aruba`, 10:00–19:00 request times. Primary channel: a user-reviewed WhatsApp message to +1 (242) 816-8286. The optional Cloudflare /api/enquiry email channel requires RESEND_API_KEY and BOOKING_FROM_EMAIL; absent secrets it returns a 503 and visitor should use WhatsApp. To avoid dead-end email UX, only WhatsApp submission is shown in the current frontend.
+
+## SEO
+- Static, individual titles/descriptions/canonical URLs
+- Open Graph, JSON-LD Organization/WebPage, FAQPage and breadcrumbs
+- 5 destination-specific area guides, 6 service descriptions, 3 journal articles, privacy, contact, FAQ, about
+- robots.txt and sitemap.xml
+- Original Tranquilitas brand imagery and attributed true destination photography, without fabricated local proof.
+
+## Editorial
+Coverage is not guaranteed. Locally authorised, suitably qualified professionals, property permissions, actual rates and travel must all be checked before accepting appointments.
