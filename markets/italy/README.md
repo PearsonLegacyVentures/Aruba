@@ -7,3 +7,5 @@ Current temporary source folder: markets/italy/ in PearsonLegacyVentures/Aruba (
 Enquiry-first: no verified local prices, partners or walk-in studio. Qualified local practitioners, insurance and applicable Italian professional rules must be checked.
 
 Local time zone: Europe/Rome; minimum 6 hours notice; primary WhatsApp enquiry; no charge or confirmation. Automated email sending is not enabled until Resend is configured.
+
+Cloudflare independent Pages project connected and first production build requested on 2026-11-10.
