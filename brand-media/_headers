@@ -1,0 +1,6 @@
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+/video/*
+  Cache-Control: public, max-age=2592000
+  Access-Control-Allow-Origin: *
