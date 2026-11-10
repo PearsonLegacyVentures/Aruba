@@ -1,0 +1,1 @@
+Tranquilitas original Bahamas brand photos are reused from PearsonLegacyVentures/Aruba with known asset SHAs. Destination photo: https://unsplash.com/photos/the-statue-of-liberty-is-lit-up-at-night-WnxJg21ka2Y by Tom Podmore, used under the Unsplash licence. No photo demonstrates a claimed local service.

@@ -1,0 +1,1 @@
+Tranquilitas original Bahamas brand photos are reused from PearsonLegacyVentures/Aruba with known asset SHAs. Destination photo: https://unsplash.com/photos/a-city-street-with-a-traffic-light-and-palm-trees-uW5ZfH4eZnY by Hannah Lindahl, used under the Unsplash licence. No photo demonstrates a claimed local service.

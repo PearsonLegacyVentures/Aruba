@@ -1,0 +1,1 @@
+Tranquilitas original Bahamas brand photos are reused from PearsonLegacyVentures/Aruba with known asset SHAs. Destination photo: https://unsplash.com/photos/aerial-view-of-a-coastal-city-with-many-buildings-psfPhKbF-mw by Big Dodzy, used under the Unsplash licence. No photo demonstrates a claimed local service.

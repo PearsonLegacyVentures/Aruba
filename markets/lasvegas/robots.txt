@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lasvegas.tranquilitasspa.com/sitemap.xml

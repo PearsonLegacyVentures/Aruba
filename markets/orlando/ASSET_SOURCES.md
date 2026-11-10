@@ -1,0 +1,1 @@
+Tranquilitas original Bahamas brand photos are reused from PearsonLegacyVentures/Aruba with known asset SHAs. Destination photo: https://unsplash.com/photos/city-skyline-across-body-of-water-during-daytime-Tyn3-Cljx-A by Mick Haupt, used under the Unsplash licence. No photo demonstrates a claimed local service.

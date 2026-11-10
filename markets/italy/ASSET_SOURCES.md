@@ -1,0 +1,1 @@
+Tranquilitas original Bahamas brand photos are reused from PearsonLegacyVentures/Aruba with known asset SHAs. Destination photo: https://unsplash.com/photos/multicolored-village-on-mountain-under-white-and-blue-skies-TtDa6GZBIYI by Ricardo Gomez Angel, used under the Unsplash licence. No photo demonstrates a claimed local service.
