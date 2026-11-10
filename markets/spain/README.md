@@ -9,3 +9,5 @@ Enquiry-first: no verified local prices, partners or walk-in studio. Local profe
 Local time zone: Europe/Madrid; minimum 6 hours notice; primary WhatsApp enquiry; no charge or confirmation. Automated email sending is not enabled until Resend is configured.
 
 Cloudflare independent Pages project connected and first production build requested on 2026-11-10.
+
+Independent-deployment verification: Spain-only content update on November 10, 2026. Other five markets should remain unchanged.
