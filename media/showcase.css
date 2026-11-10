@@ -1,0 +1,30 @@
+/* Tranquilitas portfolio gallery - shared across destination websites, v2026-11-10. Namespaced. */
+.trq-library{background:linear-gradient(145deg,#f6f7f1 0%,#e7f1ec 55%,#f5f0e6 100%);padding:clamp(70px,8vw,116px) 0;color:#143e41;font-family:inherit;content-visibility:auto;contain-intrinsic-size:auto 960px}
+.trq-library *{box-sizing:border-box}
+.trq-library .trq-inner{max-width:1220px;width:min(92%,1220px);margin:0 auto}
+.trq-library .trq-library-heading{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);align-items:end;gap:35px;margin:0 0 34px}
+.trq-library .trq-kicker{font:800 11px/1.4 system-ui,-apple-system,sans-serif;letter-spacing:.15em;color:#26847b;margin:0 0 14px}
+.trq-library h2{font:800 clamp(34px,4.7vw,66px)/1.07 system-ui,-apple-system,sans-serif;letter-spacing:-.055em;color:#123c41;margin:0}
+.trq-library .trq-library-heading>p,.trq-library .trq-library-heading>div+p{max-width:460px;line-height:1.75;color:#496c65;font-size:15px;margin:0}
+.trq-library .trq-media-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.trq-library .trq-photo{display:block;position:relative;overflow:hidden;min-width:0;aspect-ratio:4/3;background:#d7e7dd;text-decoration:none;isolation:isolate;border-radius:3px}
+.trq-library .trq-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s ease}
+.trq-library .trq-photo:hover img{transform:scale(1.025)}
+.trq-library .trq-photo::after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(0deg,#071f29df,transparent);z-index:1;pointer-events:none}
+.trq-library .trq-photo>span{position:absolute;bottom:15px;left:17px;right:13px;z-index:2;color:white;font:700 13px/1.4 system-ui,-apple-system,sans-serif}
+.trq-library .trq-photo:focus-visible{outline:3px solid #168f82;outline-offset:3px}
+.trq-library .trq-video-story{display:grid;grid-template-columns:320px 1fr;align-items:center;gap:clamp(24px,5vw,75px);margin:46px 0 0;padding:30px;background:linear-gradient(120deg,#0c343c,#184d4b);color:#e6f1eb;border-radius:4px}
+.trq-library .trq-video-visual{max-width:250px;margin:auto}
+.trq-library video{display:block;width:100%;height:auto;max-height:395px;object-fit:cover;border-radius:3px}
+.trq-library .trq-video-copy h3{font:800 clamp(27px,3vw,44px)/1.12 system-ui,-apple-system,sans-serif;letter-spacing:-.045em;margin:4px 0 19px;color:white}
+.trq-library .trq-video-copy>p{line-height:1.8;color:#dbe9e4;max-width:680px}
+.trq-library .trq-video-copy .trq-kicker{color:#a2e5d8}
+.trq-library .trq-disclosure{font-size:12px!important;color:#62807a;line-height:1.7;margin:18px 0 0}
+.trq-library .trq-video-copy .trq-disclosure{color:#b8d5ce!important}
+.trq-library .trq-cta{display:inline-flex;align-items:center;justify-content:center;gap:14px;margin-top:15px;padding:14px 20px;background:#a5e6d9;color:#103c3b;text-decoration:none;font:800 13px system-ui,-apple-system,sans-serif;border-radius:3px;min-height:46px}
+.trq-library .trq-cta:hover{background:#ddf5ed}
+.trq-library-compact .trq-media-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.trq-library-compact .trq-photo{aspect-ratio:4/5}
+@media(max-width:800px){.trq-library .trq-library-heading{grid-template-columns:1fr;gap:13px}.trq-library .trq-video-story{grid-template-columns:1fr}.trq-library .trq-video-visual{max-width:220px}.trq-library-compact .trq-media-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.trq-library .trq-inner{width:calc(100% - 32px)}.trq-library .trq-media-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.trq-library .trq-photo{aspect-ratio:3/4}.trq-library .trq-photo>span{font-size:11px;left:10px;bottom:10px}.trq-library .trq-video-story{padding:23px 16px;gap:25px}.trq-library h2{font-size:clamp(32px,8.6vw,43px)}}
+@media(prefers-reduced-motion:reduce){.trq-library .trq-photo img{transition:none}}
