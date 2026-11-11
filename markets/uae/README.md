@@ -9,3 +9,7 @@ Enquiry-first: no verified local prices, partners or walk-in studio. A valid UAE
 Local time zone: Asia/Dubai; minimum 6 hours notice; primary WhatsApp enquiry; no charge or confirmation. Automated email sending is not enabled until Resend is configured.
 
 Cloudflare independent Pages project connected and first production build requested on 2026-11-10.
+
+## Yacht charter wellness service
+
+Dedicated request-only page https://uae.tranquilitasspa.com/yacht-massage/. Requires qualified local staff, captain and marina approval, safe access and confirmed quotation. Edited source lives in markets/uae.
