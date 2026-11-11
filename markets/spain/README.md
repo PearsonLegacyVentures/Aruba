@@ -11,3 +11,7 @@ Local time zone: Europe/Madrid; minimum 6 hours notice; primary WhatsApp enquiry
 Cloudflare independent Pages project connected and first production build requested on 2026-11-10.
 
 Independent-deployment verification: Spain-only content update on November 10, 2026. Other five markets should remain unchanged.
+
+## Yacht massage and charter wellness
+
+Dedicated enquiry-only page: https://spain.tranquilitasspa.com/yacht-massage/. Captain approval, local qualified therapists, safe boarding, group staffing and total quote required before booking. Source folder: markets/spain.

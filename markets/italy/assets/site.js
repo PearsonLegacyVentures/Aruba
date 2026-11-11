@@ -1,6 +1,6 @@
 (()=>{"use strict";
 const form=document.getElementById("bookingForm"),dlg=document.getElementById("bookingDialog"),result=document.getElementById("bookingResult"),nav=document.getElementById("siteNav"),toggle=document.getElementById("navToggle"),cfg=window.TQ_CONFIG||{name:"Italy",timezone:"Atlantic/Italy"};
-const $=id=>document.getElementById(id),zone=cfg.timezone||"America/Nassau";
+const $=id=>document.getElementById(id),zone="Europe/Rome";
 function parts(date){const p=new Intl.DateTimeFormat("en-GB",{timeZone:zone,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(date),out={};p.forEach(x=>{if(x.type!=="literal")out[x.type]=x.value});return{date:out.year+"-"+out.month+"-"+out.day,time:out.hour+":"+out.minute}}
 function minDate(){return parts(new Date(Date.now()+6*3600000))}
 if(toggle&&nav){toggle.addEventListener("click",()=>{let active=nav.classList.toggle("open");toggle.setAttribute("aria-expanded",String(active));toggle.textContent=active?"×":"☰"});nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");toggle.setAttribute("aria-expanded","false")}))}

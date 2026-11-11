@@ -9,3 +9,7 @@ Enquiry-first: no verified local prices, partners or walk-in studio. Qualified l
 Local time zone: Europe/Rome; minimum 6 hours notice; primary WhatsApp enquiry; no charge or confirmation. Automated email sending is not enabled until Resend is configured.
 
 Cloudflare independent Pages project connected and first production build requested on 2026-11-10.
+
+## Yacht massage and charter wellness
+
+Dedicated enquiry-only page: https://italy.tranquilitasspa.com/yacht-massage/. Captain approval, local qualified therapists, safe boarding, group staffing and total quote required before booking. Source folder: markets/italy.
