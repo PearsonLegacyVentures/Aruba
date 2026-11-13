@@ -1,5 +1,5 @@
 (()=>{"use strict";
-const form=document.getElementById("bookingForm"),dlg=document.getElementById("bookingDialog"),result=document.getElementById("bookingResult"),nav=document.getElementById("siteNav"),toggle=document.getElementById("navToggle"),cfg=window.TQ_CONFIG||{name:"Palm Beach, Florida",timezone:"America/New_York, Florida"};
+const form=document.getElementById("bookingForm"),dlg=document.getElementById("bookingDialog"),result=document.getElementById("bookingResult"),nav=document.getElementById("siteNav"),toggle=document.getElementById("navToggle"),cfg=window.TQ_CONFIG||{name:"Palm Beach, Florida",timezone:"America/New_York"};
 const $=id=>document.getElementById(id),zone="America/New_York";
 function parts(date){const p=new Intl.DateTimeFormat("en-GB",{timeZone:zone,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(date),out={};p.forEach(x=>{if(x.type!=="literal")out[x.type]=x.value});return{date:out.year+"-"+out.month+"-"+out.day,time:out.hour+":"+out.minute}}
 function minDate(){return parts(new Date(Date.now()+6*3600000))}
