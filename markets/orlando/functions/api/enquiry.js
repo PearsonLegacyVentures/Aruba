@@ -14,7 +14,7 @@ export async function onRequestPost({request,env}){
  const guests=Number(fields.guests);if(!Number.isInteger(guests)||guests<1||guests>10||(fields.service==="couples"&&guests!==2))return reply({ok:false,error:"Invalid guest count."},400);
  if(!/^[^@ ]+@[^@ ]+\.[^@ ]+$/.test(fields.email)||!/\+?[0-9\s()+.-]{7,25}/.test(fields.phone))return reply({ok:false,error:"Invalid contact details."},400);
  if(!/^\d{4}-\d{2}-\d{2}$/.test(fields.date)||!/^([01]\d|2[0-3]):[0-5]\d$/.test(fields.time)||fields.time<"10:00"||fields.time>"19:00")return reply({ok:false,error:"Invalid date/time."},400);
- function p(x){let z={};new Intl.DateTimeFormat("en-GB",{timeZone:"America/Orlando",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(x).forEach(q=>{if(q.type!=="literal")z[q.type]=q.value});return z.year+"-"+z.month+"-"+z.day+"T"+z.hour+":"+z.minute}
+ function p(x){let z={};new Intl.DateTimeFormat("en-GB",{timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(x).forEach(q=>{if(q.type!=="literal")z[q.type]=q.value});return z.year+"-"+z.month+"-"+z.day+"T"+z.hour+":"+z.minute}
  const chosen=fields.date+"T"+fields.time;
  if(chosen<p(new Date(Date.now()+6*3600000))||chosen>p(new Date(Date.now()+366*86400000)))return reply({ok:false,error:"Please allow six hours and choose within one year."},400);
  if(!env.RESEND_API_KEY||!env.BOOKING_FROM_EMAIL)return reply({ok:false,error:"Email channel not configured. Please use WhatsApp."},503);
