@@ -120,3 +120,62 @@ main>.section-alt{background:linear-gradient(133deg,#e3f0ec 0%,#eff1e8 53%,#f8f6
 @media(max-width:740px){.tq-journal-preamble{grid-template-columns:1fr}.floating-book{display:none!important}.tq-story-copy{padding:60px 25px}}
 
 .tq-market-insight{padding:82px 0;background:linear-gradient(115deg,#0a343d,#1d625a);color:#f0f7f3}.tq-market-insight h2{font:800 clamp(32px,4.4vw,62px)/1.07 var(--display);letter-spacing:-.06em}.tq-market-insight p{max-width:840px;color:#e0efe8;line-height:1.85}.tq-market-insight .eyebrow{color:#aaeadf}.tq-market-insight-links{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}.tq-market-insight-links a{color:white;text-decoration:none;border:1px solid #b4ded3;padding:10px 13px;font:800 12px var(--ui)}
+
+
+/* Tranquilitas Spain — destination-specific service hubs (2026-11-13) */
+.dest-hero{background:radial-gradient(ellipse at 90% 10%,#24636a55,transparent 50%),linear-gradient(125deg,#082b35,#174e53 76%,#0e363f);color:#fff;overflow:hidden}
+.dest-hero-layout{display:grid;grid-template-columns:1.06fr .94fr;gap:clamp(20px,4vw,58px);align-items:center;min-height:570px}
+.dest-hero-content{padding:84px 0 94px}.dest-hero .eyebrow{color:#a8eadd}
+.dest-hero h1{font:800 clamp(42px,5.5vw,80px)/1.04 var(--display);letter-spacing:-.057em;margin:16px 0 22px;max-width:720px}
+.dest-hero-content>p{font-size:17px;line-height:1.82;color:#e0eeea;max-width:580px}
+.dest-hero-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:26px 0 20px}
+.dest-hero-content small{display:block;color:#c6dbd6;font-size:12px;line-height:1.6;max-width:520px}
+.dest-outline{border:1px solid #c8e4db!important;color:#fff!important;background:transparent!important}
+.dest-hero-photo{height:510px;position:relative;margin:0;align-self:end;overflow:hidden;border-top:1px solid #ffffff33}
+.dest-hero-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.87)}
+.dest-hero-photo:after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#072c38ae);pointer-events:none}
+.dest-hero-photo figcaption{position:absolute;z-index:1;bottom:16px;left:18px;right:18px;color:#e2eae6;font-size:11px}
+.dest-locations{background:#f2eee5;border-bottom:1px solid #d6ded6}
+.dest-locations .wrap{display:flex;align-items:center;gap:8px;min-height:71px;overflow-x:auto;white-space:nowrap;scrollbar-width:thin}
+.dest-locations span{font:800 10px/1.5 var(--ui);text-transform:uppercase;letter-spacing:.13em;color:#3e655e;margin-right:10px}
+.dest-locations a{font:800 12px var(--ui);text-decoration:none;color:#1e514e;padding:10px 17px;border:1px solid #cbd9d2;background:#faf9f4}
+.dest-locations a:hover,.dest-locations a[aria-current]{color:#fff;background:#164c50;border-color:#164c50}
+.dest-overview{padding:89px 0;background:#fbfaf6}
+.dest-overview-grid{display:grid;grid-template-columns:1.24fr .76fr;gap:clamp(25px,5vw,76px);align-items:center}
+.dest-overview h2,.dest-image-band h2,.dest-area-details h2,.dest-final h2,.dest-faq h2{font:800 clamp(33px,4.1vw,56px)/1.12 var(--display);letter-spacing:-.045em;margin:10px 0 18px;color:#134346}
+.dest-overview p,.dest-image-band p,.dest-area-details p{font-size:16px;line-height:1.82;color:#536d66}
+.dest-note{padding:27px 30px;background:#e7efea;border-left:3px solid #2a8a7d}
+.dest-note strong{font:800 15px var(--ui);color:#124b4b}.dest-note p{font-size:14px;margin:11px 0}
+.dest-note ol{margin:13px 0 20px;padding-left:20px;color:#385954;line-height:1.9}
+.dest-note .btn{margin-top:12px}
+.dest-section{padding:99px 0;background:#f0f3ed}.dest-section-heading{max-width:920px;margin-bottom:38px}
+.dest-section-heading h2{font:800 clamp(36px,4.8vw,65px)/1.1 var(--display);letter-spacing:-.05em;color:#123e40;margin:12px 0 18px}
+.dest-section-heading p{line-height:1.85;color:#536e67;max-width:800px}
+.dest-service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.dest-service-card,.dest-small-card{padding:clamp(25px,3vw,39px);background:#fffcf7;border:1px solid #d9e6dc;box-shadow:0 7px 26px #163b3710}
+.dest-service-card:last-child{grid-column:1/-1}
+.dest-service-card h3,.dest-small-card h3{font:800 clamp(24px,2.65vw,34px)/1.2 var(--display);letter-spacing:-.037em;color:#124349;margin:12px 0}
+.dest-service-card>p,.dest-small-card>p{max-width:590px;line-height:1.75;font-size:14px;color:#59746c;margin-bottom:24px}
+.dest-service-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.dest-service-action{appearance:none;width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;border:1px solid #d8e6db;background:#f2f7f0;padding:13px 14px;text-align:left;color:#184a48;font:700 13px/1.45 var(--ui);min-height:52px}
+.dest-service-action:hover,.dest-service-action:focus-visible{border-color:#2c8274;background:#d9f0e8}
+.dest-service-action span{font-size:17px;color:#277e74}
+.dest-image-band{background:#fffdf8;padding:84px 0}
+.dest-band-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(22px,5vw,72px);align-items:center}
+.dest-band-grid>img{width:100%;height:480px;object-fit:cover}
+.dest-band-grid ul{padding-left:20px;color:#345d53;line-height:2}
+.dest-band-grid .btn{margin-top:17px}
+.dest-area-details{background:#edf3ef}
+.dest-faq{background:#f9faf5}.dest-faq-list{max-width:900px;margin-top:23px}
+.dest-faq-list details{background:#fff;border-bottom:1px solid #d2ded6;padding:21px 25px}
+.dest-faq-list summary{font:800 15px/1.5 var(--ui);cursor:pointer;color:#174748}
+.dest-faq-list p{font-size:14px;line-height:1.85;color:#4f6860}
+.dest-final{padding:70px 0;background:#0b343b;color:#fff}
+.dest-final-inner{display:flex;justify-content:space-between;align-items:center;gap:30px}
+.dest-final h2{color:#fff;margin:10px 0}.dest-final p{max-width:700px;color:#ccddd9;line-height:1.8}
+.dest-final .eyebrow{color:#abebdf}.dest-final .btn{flex-shrink:0}
+.dest-small-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.dest-small-card{padding:25px}.dest-small-card h3{font-size:24px}.dest-small-card .dest-service-action{margin-top:25px}
+@media(max-width:960px){.dest-hero-layout{grid-template-columns:1fr 0.8fr}.dest-hero h1{font-size:clamp(40px,5.8vw,60px)}.dest-small-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:750px){.dest-hero-layout{display:flex;flex-direction:column;gap:0;align-items:stretch}.dest-hero-content{padding:55px 0 35px}.dest-hero h1{font-size:clamp(42px,9.8vw,62px)}.dest-hero-photo{height:295px;align-self:stretch}.dest-locations .wrap{min-height:67px}.dest-locations span{display:none}.dest-overview,.dest-section{padding:65px 0}.dest-overview-grid,.dest-band-grid{grid-template-columns:1fr}.dest-image-band{padding:60px 0}.dest-band-grid>img{height:320px}.dest-service-grid{grid-template-columns:1fr}.dest-service-card:last-child{grid-column:auto}.dest-final-inner{align-items:flex-start;flex-direction:column}}
+@media(max-width:510px){.dest-service-list,.dest-small-grid{grid-template-columns:1fr}.dest-service-card,.dest-small-card{padding:22px}.dest-hero-actions{align-items:stretch;flex-direction:column}.dest-hero-actions .btn{width:100%;justify-content:center;text-align:center}.dest-hero-photo{height:245px}.dest-note{padding:22px}.dest-faq-list details{padding:19px}}

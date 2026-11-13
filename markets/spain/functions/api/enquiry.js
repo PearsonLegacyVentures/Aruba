@@ -10,11 +10,11 @@ export async function onRequestPost({request,env}){
  if(d.website)return reply({ok:false,error:"Invalid request."},400);
  const fields={};for(const [key,n] of Object.entries({service:35,duration:12,guests:4,area:80,property:190,date:12,time:7,name:130,email:254,phone:35,notes:1250,source:200}))fields[key]=clean(d[key],n);
  const required=["service","duration","guests","area","property","date","time","name","email","phone"];if(required.some(k=>!fields[k]))return reply({ok:false,error:"Complete all required fields."},400);
- const allowed=["swedish","deep","couples","villa","hotel","group","yacht"];if(!allowed.includes(fields.service)||!["60","90","other"].includes(fields.duration))return reply({ok:false,error:"Invalid treatment."},400);
+ const allowed=["swedish","deep","couples","villa","hotel","group","yacht","relax","sports","upper","pregnancy","lymphatic","renata","vodder","thai","reflexology","kobido","nails","hair","makeup","facial","scrub","yoga","pilates","breathwork","sound","villa_day","retreat","bespoke"];if(!allowed.includes(fields.service)||!["60","90","other"].includes(fields.duration))return reply({ok:false,error:"Invalid treatment."},400);
  const guests=Number(fields.guests);if(!Number.isInteger(guests)||guests<1||guests>10||(fields.service==="couples"&&guests!==2))return reply({ok:false,error:"Invalid guest count."},400);
  if(!/^[^@ ]+@[^@ ]+\.[^@ ]+$/.test(fields.email)||!/\+?[0-9\s()+.-]{7,25}/.test(fields.phone))return reply({ok:false,error:"Invalid contact details."},400);
  if(!/^\d{4}-\d{2}-\d{2}$/.test(fields.date)||!/^([01]\d|2[0-3]):[0-5]\d$/.test(fields.time)||fields.time<"10:00"||fields.time>"19:00")return reply({ok:false,error:"Invalid date/time."},400);
- function p(x){let z={};new Intl.DateTimeFormat("en-GB",{timeZone:"America/Spain",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(x).forEach(q=>{if(q.type!=="literal")z[q.type]=q.value});return z.year+"-"+z.month+"-"+z.day+"T"+z.hour+":"+z.minute}
+ function p(x){let z={};new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Madrid",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(x).forEach(q=>{if(q.type!=="literal")z[q.type]=q.value});return z.year+"-"+z.month+"-"+z.day+"T"+z.hour+":"+z.minute}
  const chosen=fields.date+"T"+fields.time;
  if(chosen<p(new Date(Date.now()+6*3600000))||chosen>p(new Date(Date.now()+366*86400000)))return reply({ok:false,error:"Please allow six hours and choose within one year."},400);
  if(!env.RESEND_API_KEY||!env.BOOKING_FROM_EMAIL)return reply({ok:false,error:"Email channel not configured. Please use WhatsApp."},503);
