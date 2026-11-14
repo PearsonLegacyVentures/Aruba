@@ -254,3 +254,7 @@ body{background:#fbfaf6;color:#17343a;font-family:'DM Sans',sans-serif;line-heig
 .tq-aruba-concierge__photo-credit{position:absolute;bottom:0;right:0;max-width:300px;text-align:right;color:#b9d6d1!important;font:500 11px/1.6 'DM Sans',sans-serif;margin:0}
 @media(max-width:850px){.tq-aruba-concierge__inner{grid-template-columns:1fr}.tq-aruba-concierge h2{max-width:18ch}.tq-aruba-concierge__visual{max-width:700px}}
 @media(max-width:560px){.tq-aruba-concierge{padding:64px 0}.tq-aruba-concierge__visual{padding:0 0 32px 22px;min-height:350px}.tq-aruba-concierge__primary{height:330px}.tq-aruba-concierge__inset{height:144px;width:48%;left:0;bottom:4px;border-width:3px}.tq-aruba-concierge__photo-credit{font-size:9px}.tq-aruba-concierge .hero-actions{flex-direction:column}.tq-aruba-concierge .hero-actions .btn{width:100%;text-align:center;justify-content:center}}
+
+/* Keep main photo caption clear of the overlapping inset photo */
+.tq-aruba-concierge__primary figcaption{left:auto;right:14px;bottom:16px;max-width:52%;text-align:right}
+.tq-aruba-concierge__inset figcaption{left:10px;right:10px;bottom:10px;text-align:left}
