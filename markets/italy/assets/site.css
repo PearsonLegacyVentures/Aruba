@@ -259,3 +259,19 @@ body{background:#fbfaf6;color:#17343a;font-family:'DM Sans',sans-serif;line-heig
 .tq-milan-cta__image figcaption{position:absolute;z-index:1;bottom:18px;left:22px;right:22px;color:#fff;font:700 11px/1.5 'Poppins',sans-serif;text-shadow:0 1px 4px #00252b}
 @media(max-width:850px){.tq-milan-intro__grid{grid-template-columns:1fr;gap:25px}.tq-milan-intro__image{min-height:430px;max-width:680px}.tq-milan-intro__copy{padding:0}.tq-milan-cta__layout{grid-template-columns:1fr}.tq-milan-cta__content{padding:70px 28px 65px}.tq-milan-cta__image{min-height:350px}}
 @media(max-width:560px){.tq-milan-intro{padding:65px 0}.tq-milan-intro__image{min-height:335px}.tq-milan-intro__copy .tq-editorial-heading{font-size:clamp(41px,10vw,58px)}.tq-milan-cta h2{font-size:clamp(39px,10vw,56px)}.tq-milan-cta__content{padding:70px 16px 62px}.tq-milan-cta__image{min-height:285px}.tq-milan-cta__detail{font-size:11px!important}}
+
+
+/* Italy-wide booking CTA contrast repair; homepage-specific photographic finish */
+.cta{background:#113b42;color:#fff}
+.cta h2{color:#fff!important}
+.cta p{color:#e0efea!important}
+.cta .eyebrow{color:#bceae3!important}
+.cta .btn-outline{color:#fff!important;border-color:#d5ede8!important}
+.cta .btn-primary{background:#c8f4ef;color:#0a282e;border-color:#c8f4ef}
+.tq-italy-home-cta{background:linear-gradient(90deg,rgba(7,37,43,.98) 0%,rgba(7,37,43,.92) 43%,rgba(7,37,43,.28) 100%),url('https://raw.githubusercontent.com/PearsonLegacyVentures/Aruba/2c3f0b9ac78585927fc31e0499d2150dc9c6d349/brand-media/photos/tranquilitas-outdoor-massage-veranda.jpg') center 45%/cover no-repeat!important;min-height:530px;display:flex;align-items:center;padding:clamp(70px,9vw,125px) 0}
+.tq-italy-home-cta .wrap{width:min(1180px,calc(100% - 44px));margin-inline:auto}
+.tq-italy-home-cta h2{font-size:clamp(37px,5.3vw,77px);max-width:740px;line-height:1.05}
+.tq-italy-home-cta p:not(.tq-italy-home-cta__source){max-width:580px;font-size:clamp(15px,1.4vw,18px);line-height:1.75}
+.tq-italy-home-cta__source{max-width:570px;font-size:11px!important;line-height:1.6;margin:15px 0 0!important;color:#c0d8d3!important}
+.tq-italy-home-cta .hero-actions{margin-top:30px}
+@media(max-width:640px){.tq-italy-home-cta{min-height:580px;background:linear-gradient(90deg,rgba(7,37,43,.93),rgba(7,37,43,.72)),url('https://raw.githubusercontent.com/PearsonLegacyVentures/Aruba/2c3f0b9ac78585927fc31e0499d2150dc9c6d349/brand-media/photos/tranquilitas-outdoor-massage-veranda.jpg') center/cover no-repeat!important}.tq-italy-home-cta .wrap{width:calc(100% - 32px)}.tq-italy-home-cta .hero-actions{flex-direction:column}.tq-italy-home-cta .hero-actions .btn{width:100%;text-align:center;justify-content:center}}
