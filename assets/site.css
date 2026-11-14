@@ -176,3 +176,10 @@ body{background:#fbfaf6;color:#17343a;font-family:'DM Sans',sans-serif;line-heig
 @media(max-width:900px){.tq-editorial{grid-template-columns:1fr}.tq-price-top{display:block}.tq-price-row{grid-template-columns:50px 130px minmax(150px,1fr);gap:16px}.tq-price-amount{grid-column:3;justify-items:start;text-align:left}.tq-price-num small{display:none}.tq-price-row .tq-price-desc{font-size:13px}}
 @media(max-width:600px){.tq-visual-wrap{width:calc(100% - 32px)}.tq-price-row{grid-template-columns:30px 100px 1fr;gap:12px;padding:20px 0}.tq-price-photo{height:118px}.tq-price-name{font-size:23px}.tq-price-amount strong{font-size:22px}.tq-price-amount small{font-size:9px}.tq-price-top{margin-bottom:18px}.hero h1{font-size:clamp(44px,11vw,72px)}.header{min-height:72px}.header-in{min-height:72px}.tq-local-pills span{font-size:10px}.tq-price-list--compact .tq-price-row{grid-template-columns:25px 80px 1fr}.tq-price-list--compact .tq-price-photo{height:90px}}
 @media(prefers-reduced-motion:reduce){.card,.btn,.tq-price-row{transition:none}}
+
+
+.tq-inline-rate{width:min(1100px,calc(100% - 44px));margin:40px auto;padding:clamp(24px,4vw,45px);background:#ecf6f1;border-left:4px solid #123b42;color:#123b42}
+.tq-inline-rate h2{font:800 clamp(25px,3.5vw,47px)/1.13 'Poppins',sans-serif;letter-spacing:-.05em;margin:8px 0}
+.tq-inline-rate strong{display:block;font:800 clamp(18px,2.8vw,31px)/1.3 'Poppins',sans-serif}
+.tq-inline-rate p{font-size:14px;color:#42665f;line-height:1.75}.tq-inline-rate a{font-weight:800;color:#165f53;text-decoration:underline}
+.cta .btn-primary{background:#c8f4ef;color:#0a282e}
