@@ -230,3 +230,27 @@ body{background:#fbfaf6;color:#17343a;font-family:'DM Sans',sans-serif;line-heig
 @media(max-width:800px){.tq-photo-essay__intro{grid-template-columns:1fr}.tq-photo-essay__intro>p:not(.tq-editorial-kicker){margin-top:16px}.tq-photo-essay__cta{grid-column:1}.tq-photo-essay__grid{grid-template-columns:1.1fr 1fr;grid-template-rows:230px 230px}}
 @media(max-width:600px){.tq-photo-essay__wrap{width:calc(100% - 32px)}.tq-photo-essay__grid{grid-template-columns:1fr 1fr;grid-template-rows:220px 160px;gap:8px}.tq-photo-essay__tile--1{grid-column:1/3;grid-row:1}.tq-photo-essay__tile--2{grid-column:1;grid-row:2}.tq-photo-essay__tile--3{grid-column:2;grid-row:2}.tq-photo-essay__intro h2{font-size:clamp(32px,9vw,54px)}.tq-photo-essay__tile figcaption{font-size:9px;bottom:10px;left:9px}.tq-image-hero{min-height:670px;padding:90px 0}.tq-image-hero h1{font-size:clamp(43px,10.7vw,68px)}.tq-ibiza-hero .dest-hero-layout{min-height:690px}.tq-ibiza-hero .dest-hero-content{padding:85px 0 115px}.tq-ibiza-hero h1{font-size:clamp(43px,10.7vw,70px)}.tq-ibiza-hero .dest-hero-photo figcaption{font-size:9px;right:10px;bottom:10px}}
 @media(prefers-reduced-motion:reduce){.tq-photo-essay__tile img{transition:none}.tq-photo-essay__tile:hover img{transform:none}}
+
+
+/* Aruba homepage: private-concierge photo integration, no standalone photo collage */
+.tq-aruba-concierge{background:#113c42!important;color:#fff!important;padding:clamp(56px,7vw,100px) 0;overflow:hidden}
+.tq-aruba-concierge__inner{display:grid;grid-template-columns:minmax(0,.97fr) minmax(0,1.03fr);gap:clamp(35px,6vw,90px);align-items:center}
+.tq-aruba-concierge__copy{position:relative;z-index:2}
+.tq-aruba-concierge .eyebrow{display:block;color:#b8e9e2!important;letter-spacing:.15em;font-size:11px}
+.tq-aruba-concierge h2{font:800 clamp(36px,4.8vw,67px)/1.06 'Poppins',sans-serif;letter-spacing:-.06em;color:#fff!important;margin:20px 0 22px;max-width:13ch}
+.tq-aruba-concierge__copy>p:not(.tq-aruba-concierge__footnote){font:400 clamp(15px,1.3vw,18px)/1.75 'DM Sans',sans-serif;color:#e0eeec!important;max-width:520px}
+.tq-aruba-concierge .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.tq-aruba-concierge .btn-primary{background:#c8f4ef;color:#102e35;border-color:#c8f4ef}
+.tq-aruba-concierge .btn-outline{border:1px solid #d6ebe7!important;background:transparent;color:#fff!important}
+.tq-aruba-concierge__footnote{color:#aed1cc!important;font-size:12px;line-height:1.7;margin-top:25px}
+.tq-aruba-concierge__visual{position:relative;padding:0 0 42px 45px;min-height:535px}
+.tq-aruba-concierge__primary,.tq-aruba-concierge__inset{margin:0;overflow:hidden;position:relative;background:#31565c}
+.tq-aruba-concierge__primary{height:510px;width:100%}
+.tq-aruba-concierge__primary img,.tq-aruba-concierge__inset img{display:block;width:100%;height:100%;object-fit:cover}
+.tq-aruba-concierge__primary img{object-position:center 45%}
+.tq-aruba-concierge__inset{width:44%;height:205px;position:absolute;left:0;bottom:5px;box-shadow:0 12px 40px #001c2290;border:5px solid #113c42}
+.tq-aruba-concierge__primary:after,.tq-aruba-concierge__inset:after{content:"";position:absolute;inset:auto 0 0;height:35%;background:linear-gradient(transparent,#082b358a);pointer-events:none}
+.tq-aruba-concierge figure figcaption{position:absolute;z-index:1;bottom:12px;right:13px;left:13px;color:#fff;font:800 10px/1.5 'Poppins',sans-serif;text-shadow:0 1px 6px #082b35}
+.tq-aruba-concierge__photo-credit{position:absolute;bottom:0;right:0;max-width:300px;text-align:right;color:#b9d6d1!important;font:500 11px/1.6 'DM Sans',sans-serif;margin:0}
+@media(max-width:850px){.tq-aruba-concierge__inner{grid-template-columns:1fr}.tq-aruba-concierge h2{max-width:18ch}.tq-aruba-concierge__visual{max-width:700px}}
+@media(max-width:560px){.tq-aruba-concierge{padding:64px 0}.tq-aruba-concierge__visual{padding:0 0 32px 22px;min-height:350px}.tq-aruba-concierge__primary{height:330px}.tq-aruba-concierge__inset{height:144px;width:48%;left:0;bottom:4px;border-width:3px}.tq-aruba-concierge__photo-credit{font-size:9px}.tq-aruba-concierge .hero-actions{flex-direction:column}.tq-aruba-concierge .hero-actions .btn{width:100%;text-align:center;justify-content:center}}
